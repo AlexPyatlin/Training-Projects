@@ -1,1 +1,1 @@
-# Training-Projects
+# Описание проекта
