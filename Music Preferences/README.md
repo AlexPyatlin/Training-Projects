@@ -1,4 +1,4 @@
-# Music preferences
+# Yandex.Music client analysis
 
 ## Описание проекта
 
