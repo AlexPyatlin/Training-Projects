@@ -1,18 +1,23 @@
-# Репозиторий учебных проектов
-Учебные проекты были выполнены в ходе освоения курса "Аналитик данных" от Яндекс.Практикум.
+# Course projects repository
+Here I’ve listed my training projects as a part of the Data Analytics course, provided by Yandex.
 
-## Описание проектов
+## Projects overview
 
-В таблице приведен перечень проектов с кратким описанием, используемыми библиотеками и ссылками на папки с проектами в репозитории.
+The table below introduces the projects’ titles, final results and libraries used.
 
-**Название проекта**|**Описание**|**Используемые библиотеки**
+**Title**|**Results**|**Libraries**
 -----|-----|-----
-[Исследование данных сервиса Яндекс.Музыка](https://github.com/AlexPyatlin/Training-Projects/tree/main/Music%20Preferences)|Анализ поведения пользователей и сравнение их предпочтений|pandas, fuzzywuzzy, matplotlib
-[Исследование надёжности заёмщиков](https://github.com/AlexPyatlin/Training-Projects/tree/main/Credit%20scoring)|Исследование влияния на возврат кредита в срок следующих факторы: количество детей, семейное положение, уровень дохода, цель кредита|pandas
-[Анализ рынка недвижимости Санкт-Петербурга](https://github.com/AlexPyatlin/Training-Projects/tree/main/Real%20estate%20market%20analysis)|Установление параметров для определения рыночной стоимости объектов недвижимости|pandas, matplotlib, seaborn
-[Определение выгодного тарифа для телеком компании](https://github.com/AlexPyatlin/Training-Projects/tree/main/Tariffs)|Анализ поведения клиентов и выбор наиболее прибыльного тарифа|pandas, matplotlib, seaborn, numpy, scipy
-[Изучение закономерностей, определяющих успешность игр](https://github.com/AlexPyatlin/Training-Projects/tree/main/Video%20games)|Выявление закономерностей, определяющих успешность игры, формулирование рекомендаций по планированию рекламной кампании|pandas, matplotlib, seaborn, scipy
-[Анализ убытков мобильного приложения](https://github.com/AlexPyatlin/Training-Projects/tree/main/Advertising%20analysis)|Анализ причин причины неэффективности привлечения пользователей,  формулирование рекомендации по оптимизации рекламной кампании|pandas, matplotlib, seaborn, numpy, datetime
-[Проверка гипотез по увеличению выручки в интернет-магазине](https://github.com/AlexPyatlin/Training-Projects/tree/main/A:B%20test_1) |Приоритизирование гипотез, анализ результаты А/Б-теста и принятие решения по результатам теста|pandas, matplotlib, numpy, datetime, scipy
-[Исследования рынка общепита в Москве для принятия решения об открытии нового заведения](https://github.com/AlexPyatlin/Training-Projects/tree/main/Food%20service%20market%20analysis)| Исследование рынка общественного питания на основе открытых данных, подготовка презентации для инвесторов|pandas, re, numpy, plotly
-[Анализ пользовательского поведения в мобильном приложении](https://github.com/AlexPyatlin/Training-Projects/tree/main/A:B%20test_2)|Проведение анализа воронки продаж на основе данных использования мобильного приложения, оценка результатов A/A/B-теста|pandas, matplotlib, seaborn, math, scipy
+[Bank’s client segmentation](https://github.com/AlexPyatlin/Training-Projects/tree/main/Bank%E2%80%99s%20client%20segmentation)|Determined uniform client segments based on correlation analysis and statistical hypothesis testing, proposed strategies to keep the customers|pandas, matplotlib, seaborn, scikit-learn, scipy, itertools
+[Fitness club churn analysis](https://github.com/AlexPyatlin/Training-Projects/tree/main/Fitness%20club%20churn%20analysis)|Built models to predict customer churn, performed customer clustering analysis and recommended steps to increase retention rate|pandas, matplotlib, seaborn, scikit-learn, scipy
+[SQL](https://github.com/AlexPyatlin/Training-Projects/tree/main/SQL)|Used SQL queries and Python to retrieve data from a database and answer 5 questions|pandas, sqlalchemy
+[A/B test analysis](https://github.com/AlexPyatlin/Training-Projects/tree/main/A:B%20test_1)|Analyzed A/B test results, calculated the statistical significance of the difference in the conversion rates|pandas, matplotlib, numpy, datetime, scipy
+[A/B test analysis_2](https://github.com/AlexPyatlin/Training-Projects/tree/main/A:B%20test_2)|Analyzed A/A/B test results, calculated the statistical significance between each control and experimental groups|pandas, matplotlib, seaborn, math, scipy
+[A/B test analysis_3](https://github.com/AlexPyatlin/Training-Projects/tree/main/A:B%20test%20analysis_3)|Analyzed A/B test results, explained main reasons for the test’s failure|pandas, matplotlib, seaborn, datetime, statsmodels
+[Tableau dashboard](https://public.tableau.com/app/profile/alexander.pyatlin/viz/Yandex_DzenDashboard_16643842089520/Yandex_DzenDashboard) |Created a dashboard in Tableau Public by aggregating data from a database using Python script| -
+[Food service market research](https://github.com/AlexPyatlin/Training-Projects/tree/main/Food%20service%20market%20analysis)| Suggested a potentially profitable type of a café and a favorable location to investors|pandas, re, numpy, plotly
+[Mobile app’s losses analysis](https://github.com/AlexPyatlin/Training-Projects/tree/main/Advertising%20analysis)|Identified unprofitable advertising channels, proposed steps for marketing campaign optimization|pandas, matplotlib, seaborn, numpy, datetime
+[Video games market research](https://github.com/AlexPyatlin/Training-Projects/tree/main/Video%20games)|Provided specific recommendations to adjust marketing campaign and reduce costs|pandas, matplotlib, seaborn, scipy
+[Comparison of mobile tariffs](https://github.com/AlexPyatlin/Training-Projects/tree/main/Tariffs)|Recommended the most profitable mobile tariff to cut advertising costs|pandas, matplotlib, seaborn, numpy, scipy
+[Saint Petersburg’s real estate analysis](https://github.com/AlexPyatlin/Training-Projects/tree/main/Real%20estate%20market%20analysis)|Defined key parameters of a typical apartment to determine the market value|pandas, matplotlib, seaborn
+[Research of the reliability of borrowers](https://github.com/AlexPyatlin/Training-Projects/tree/main/Credit%20scoring)|Showed how such factors as a number of children, marital status, income and loan purpose may impact on a loan repayment|pandas
+[Yandex.Music client analysis](https://github.com/AlexPyatlin/Training-Projects/tree/main/Music%20Preferences)|Analyzed preferences and behavior of clients from Moscow and Saint Petersburg, checked three statements|pandas, fuzzywuzzy, matplotlib
