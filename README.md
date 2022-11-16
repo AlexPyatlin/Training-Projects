@@ -3,7 +3,7 @@ Here I’ve listed my training projects as a part of the Data Analytics course p
 
 ## Projects overview
 
-The table below introduces the projects’ titles, final results and libraries used.
+The table below introduces the projects’ titles, final results, and libraries used.
 
 **Title**|**Results**|**Libraries**
 -----|-----|-----
