@@ -1,5 +1,5 @@
 # Course projects repository
-Here I’ve listed my training projects as a part of the Data Analytics course, provided by Yandex.
+Here I’ve listed my training projects as a part of the Data Analytics course provided by Yandex.
 
 ## Projects overview
 
